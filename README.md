@@ -1,4 +1,4 @@
-# 🍴 Kitchen Chaos Replica
+# 🍴 Kitchen Chaos Again
 
 A Unity game inspired by [**Code Monkey's Kitchen Chaos tutorial**](https://store.steampowered.com/app/2275820/Kitchen_Chaos__Learn_Game_Development/).  
 This project is a simplified Overcooked-like game where the player prepares and delivers meals to customers.  
@@ -35,7 +35,16 @@ This project is a simplified Overcooked-like game where the player prepares and 
 ---
 
 ## 🖼️ Screenshots
-(Add gameplay screenshots here: `Images/Gameplay1.png`, etc.)
+<table>
+   <tr>
+      <td><img src="KC Images/Screenshot (249).png"/></td>
+      <td><img src="KC Images/Screenshot (250).png"/></td>
+   </tr>
+   <tr>
+      <td><img src="KC Images/Screenshot (251).png"/></td>
+      <td><img src="KC Images/Screenshot (252).png"/></td>
+   </tr>
+</table>
 
 ---
 
