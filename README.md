@@ -1,36 +1,45 @@
 # 🍴 Kitchen Chaos Replica
 
-A Unity game inspired by **Code Monkey's Kitchen Chaos tutorial**.  
-This project is a simplified Overcooked-like game where the player prepares and delivers meals to customers.
+A Unity game inspired by [**Code Monkey's Kitchen Chaos tutorial**](https://store.steampowered.com/app/2275820/Kitchen_Chaos__Learn_Game_Development/).  
+This project is a simplified Overcooked-like game where the player prepares and delivers meals to customers.  
+✨ Extended with **multiplayer (NGO + Unity Relay + Lobby)** and an improved **scoring & delivery system**. The Player can now deliver directly to customers waiting at their tables !
 
 ---
 
 ## 🎮 Features
-- 👨‍🍳 **Player movement & interaction** using Unity Input System
-- 🍳 **Kitchen counters** for placing, picking, and chopping ingredients
-- 🥗 **Recipe system** with orders and delivery checks
-- 🕹️ **UI system** for showing orders and progress
-- 📦 **ScriptableObjects** for recipes and items
-- 🔄 **Events & Delegates** for clean communication between scripts
+
+| Feature | Description |
+|---------|-------------|
+| 🌐 Multiplayer | Built with **Netcode for GameObjects (NGO)** + **Unity Relay** + **Lobby** |
+| 👨‍🍳 Player Movement & Interaction | Smooth top-down movement with the **Unity Input System** |
+| 🍳 Kitchen Counters | Pick up, place, and chop ingredients on counters |
+| 🥗 Recipe System | Orders are generated, checked, and validated |
+| 🕹️ UI System | Order list, progress bars, and interaction prompts |
+| 📦 ScriptableObjects | Used for recipes, items, and game data |
+| 🔄 Events & Delegates | Clean communication between game systems |
+| 🍽️ Table Delivery System | Players deliver correct recipes directly to **customers at tables** |
+| 🏆 Scoring System | Updated scoring based on successful table deliveries |
 
 ---
 
 ## 🎯 Controls
- - WASD / Arrow Keys → Move
- - E → Interact / Pick / Drop
- - Space → Action (chop, deliver, etc.)
+- **WASD / Arrow Keys** → Move  
+- **E** → Interact / Pick / Drop  
+- **Space** → Action (chop, deliver, etc.)  
 
 ---
 
-## Play the Game
-[![Play on Itch.io](https://static.itch.io/images/badge.svg)](https://<your-itch-username>.itch.io/<your-game-name>)
+## ▶️ Play the Game
+[![Play on Itch.io](https://static.itch.io/images/badge.svg)](https://vivekkrdutta03.itch.io/restaurant)
+
+---
 
 ## 🖼️ Screenshots
-(Add some gameplay images here: `Images/Gameplay1.png`, etc.)
+(Add gameplay screenshots here: `Images/Gameplay1.png`, etc.)
 
 ---
 
-## 🚀 How to Play
+## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Vivekkrdutta/Kitchen-Chaos---Again-
+   git clone https://github.com/Vivekkrdutta/Kitchen-Chaos---Again-.git
