@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 62824ec1befe7ac478a0e681758072bf
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265869
+  packageName: Atomic Console
+  packageVersion: 1.3
+  assetPath: Assets/Atomic Console/Editor/Tools/AtomicMappingEditor.cs
+  uploadId: 629177

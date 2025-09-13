@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7753228075697300398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5068751580795060993}
+  - component: {fileID: 8003279249422350029}
+  m_Layer: 0
+  m_Name: Atomic_Console
+  m_TagString: Untagged
+  m_Icon: {fileID: 2800000, guid: a7d9d088d387e5846a2adf97e1c36187, type: 3}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5068751580795060993
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7753228075697300398}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8003279249422350029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7753228075697300398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e52f35519d4f7246b24da3f3f05c1a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skin: {fileID: 11400000, guid: 556cf51ef28de8e4d979332fd05e6ea8, type: 2}
+  invidiualLogs: 0
+  SleepMode: 1
+  AlwaysOnFocus: 1
+  dontDestroyOnLoad: 1
+  ToggleConsoleInput: 96
+  password_Protected: 0
+  password: 1234
+  isLocked: 0
+  consoleLogs: []
+  scrollPos: {x: 0, y: 0}
+  scrollPosSmoothnes: 50
+  isVisible: 0
+  inputText: 
+  Diagnostic: 0
+  logsChanged: 0
+  concatenatedLogs: 
+  actualPassword: 

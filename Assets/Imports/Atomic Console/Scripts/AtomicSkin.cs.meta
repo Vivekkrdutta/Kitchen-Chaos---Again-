@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 73e7fa75c21673f48a7d41e83a02cc70
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 441bf0383fa3fcd4b95347df6bc23e9e, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265869
+  packageName: Atomic Console
+  packageVersion: 1.3
+  assetPath: Assets/Atomic Console/Scripts/AtomicSkin.cs
+  uploadId: 629177

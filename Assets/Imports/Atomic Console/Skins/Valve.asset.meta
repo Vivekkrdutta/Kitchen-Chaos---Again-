@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 86bc130c94293c648a494aef4efd36fe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265869
+  packageName: Atomic Console
+  packageVersion: 1.3
+  assetPath: Assets/Atomic Console/Skins/Valve.asset
+  uploadId: 629177

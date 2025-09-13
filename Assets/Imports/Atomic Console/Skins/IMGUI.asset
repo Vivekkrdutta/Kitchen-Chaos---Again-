@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e7fa75c21673f48a7d41e83a02cc70, type: 3}
+  m_Name: IMGUI
+  m_EditorClassIdentifier: 
+  defaultSkin: {fileID: 11400000, guid: ddbef32e0d8eb4340a52226fcf7ab3fe, type: 2}
+  ChangeInRealTime: 0
+  ShowArgName: 1
+  OpenWindow: 282
+  AutoFill: 9
+  Previous_cmd: 273
+  Header: Developer Console
+  Button_Send: Send
+  Button_Clear: Clear
+  Show_Clear_Button: 1
+  Show_Send_Button: 1
+  ShowCloseBtn: 0
+  font: {fileID: 0}
+  MinWinSize: {x: 512, y: 254}
+  MaxWinSize: {x: 1280, y: 277}
+  CanResize: 0
+  windowType: 0
+  windowRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  animationSpeed: 0.5
+  logPrefixType: 1
+  logPrefix: 
+  MaxCommandHistory: 96
+  MaxSuggestion: 10
+  CaretSpeed: -1
+  Output_Command: {r: 0, g: 1, b: 0, a: 1}
+  Output_Log: {r: 1, g: 1, b: 1, a: 1}
+  Output_Warning: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  Output_Error: {r: 1, g: 0, b: 0, a: 1}
+  Output_Exception: {r: 1, g: 0, b: 0, a: 1}
+  Output_CommandWarning: {r: 1, g: 0.5, b: 0, a: 1}
+  Output_CommandError: {r: 1, g: 0, b: 0, a: 1}
+  Output_CommandException: {r: 1, g: 0, b: 0, a: 1}
+  Output_Console: {r: 0, g: 1, b: 0, a: 1}
+  Output_Network: {r: 0, g: 0, b: 1, a: 1}
+  Output_NetworkError: {r: 1, g: 0, b: 0, a: 1}
+  Output_NetworkWarning: {r: 1, g: 0.5, b: 0, a: 1}
+  Output_Object: {r: 1, g: 1, b: 1, a: 1}
+  Output_Material: {r: 1, g: 0, b: 1, a: 1}
+  Output_Info: {r: 1, g: 1, b: 1, a: 1}
+  Output_System: {r: 1, g: 1, b: 1, a: 1}
+  Output_Audio: {r: 0, g: 1, b: 1, a: 1}
+  Output_Critical: {r: 1, g: 0, b: 0, a: 1}
+  Output_GameState: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  Output_Physics: {r: 0, g: 1, b: 0, a: 1}
+  Output_AI: {r: 1, g: 0, b: 1, a: 1}
+  Output_Input: {r: 0.75, g: 0.75, b: 0.75, a: 1}
+  InverseSelectionColor: 0
+  CaretColor: {r: 1, g: 1, b: 1, a: 1}
+  SelectionColor: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
+  Header_Style:
+    font_style: 1
+    font_color: {r: 1, g: 1, b: 1, a: 1}
+    alignment: 1
+    font_size: 0
+    HeaderSize: 20
+    useWindowPosition: 1
+    background: {fileID: 0}
+    on_background: {fileID: 0}
+    transparent: 1
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    onNormal_background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 0, y: 2}
+    margin: {x: 0, y: 0, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: 0, w: 0}
+    overflow: {x: 0, y: 0, z: 0, w: 0}
+    WH: {x: 0, y: 0}
+  Log_Style:
+    background: {fileID: 0}
+    on_background: {fileID: 0}
+    transparent: 0.649
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    onNormal_background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 0, y: 2}
+    margin: {x: 0, y: 0, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: 0, w: 0}
+    overflow: {x: 0, y: 0, z: 0, w: 0}
+  Input_Style:
+    font_style: 0
+    font_color: {r: 1, g: 1, b: 1, a: 1}
+    alignment: 3
+    font_size: 0
+    background: {fileID: 0}
+    on_background: {fileID: 0}
+    transparent: 1
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    onNormal_background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 5, y: 8}
+    margin: {x: 5, y: 0, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: -10, w: 15}
+    overflow: {x: 0, y: 0, z: 5, w: -5}
+    WH: {x: 0, y: 0}
+  Output_Style:
+    font_style: 0
+    font_color: {r: 1, g: 1, b: 1, a: 1}
+    alignment: 0
+    font_size: 0
+    background: {fileID: 0}
+    on_background: {fileID: 0}
+    transparent: 1
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    onNormal_background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 5, y: 0}
+    margin: {x: 0, y: 0, z: 3, w: 0}
+    padding: {x: 0, y: 0, z: 5, w: 0}
+    overflow: {x: 0, y: 0, z: 0, w: 5}
+  Button_Style:
+    font_style: 0
+    font_color: {r: 1, g: 1, b: 1, a: 1}
+    alignment: 4
+    font_size: 0
+    background: {fileID: 0}
+    on_background: {fileID: 0}
+    transparent: 1
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    onNormal_background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 0, y: -2}
+    margin: {x: 5, y: 5, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: 0, w: 0}
+    overflow: {x: 0, y: 0, z: 5, w: 0}
+    WH: {x: 0, y: 0}
+  Command_Style:
+    font_style: 2
+    font_color: {r: 1, g: 1, b: 1, a: 1}
+    alignment: 3
+    font_size: 12
+    background: {fileID: 0}
+    on_background: {fileID: 0}
+    transparent: 1
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    onNormal_background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 5, y: 1}
+    margin: {x: 0, y: 0, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: 0, w: 2}
+    overflow: {x: 0, y: 0, z: 0, w: 0}
+    WH: {x: 0, y: 0}
+  CloseButton_Style:
+    font_style: 1
+    font_color: {r: 1, g: 1, b: 1, a: 1}
+    alignment: 1
+    font_size: 0
+    text: x
+    Button_Rect:
+      serializedVersion: 2
+      x: -32
+      y: 5
+      width: 15
+      height: 15
+    background: {fileID: 0}
+    on_background: {fileID: 0}
+    transparent: 1
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    onNormal_background_color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 0, y: 0}
+    margin: {x: 0, y: 0, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: 0, w: 0}
+    overflow: {x: 0, y: 0, z: 0, w: 0}
+  Scrollbar_Style:
+    Background_Horizontal: {fileID: 0}
+    On_Background_Horizontal: {fileID: 0}
+    Thumb_Horizontal: {fileID: 0}
+    on_Thumb_Horizontal: {fileID: 0}
+    Background_Vertical: {fileID: 0}
+    On_Background_Vertical: {fileID: 0}
+    Thumb_Vertical: {fileID: 0}
+    on_Thumb_Vertical: {fileID: 0}
+    Background_Color: {r: 0.05660379, g: 0.05660379, b: 0.05660379, a: 1}
+    Thumb_Color: {r: 0.16037738, g: 0.16037738, b: 0.16037738, a: 1}
+    HoverThumb_Color: {r: 0, g: 0, b: 0, a: 1}
+    transparent: 0
+    Horizontal_Background_Border: {x: 9, y: 9, z: 0, w: 0}
+    Horizontal_Thumb_Border: {x: 6, y: 6, z: 4, w: 4}
+    Vertical_Background_Border: {x: 9, y: 9, z: 9, w: 9}
+    Vertical_Thumb_Border: {x: 4, y: 4, z: 4, w: 4}
+    Horizontal_Stretch_Width: 1
+    Horizontal_Stretch_Height: 0
+    Vertical_Stretch_Width: 0
+    Vertical_Stretch_Height: 1
+    Horizontal_Background_Fixed_Height: 13
+    Horizontal_Background_Fixed_Width: 0
+    Vertical_Background_Fixed_Height: 0
+    Vertical_Background_Fixed_Width: 13
+    Horizontal_Thumb_Fixed_Height: 0
+    Horizontal_Thumb_Fixed_Width: 0
+    Vertical_Thumb_Fixed_Height: 0
+    Vertical_Thumb_Fixed_Width: 0
+    Horizontal_Text_clip: 1
+    Horizontal_Image_position: 2
+    Horizontal_Alignment: 0
+    Vertical_Text_clip: 1
+    Vertical_Image_position: 2
+    Vertical_Alignment: 0
+    Horizontal_Background_margin: {x: 4, y: 0, z: 9, w: 0}
+    Horizontal_Background_padding: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Background_overflow: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Background_margin: {x: 4, y: 0, z: 0, w: 0}
+    Vertical_Background_padding: {x: 0, y: 0, z: 0, w: 10}
+    Vertical_Background_overflow: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Thumb_margin: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Thumb_padding: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Thumb_overflow: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Thumb_margin: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Thumb_padding: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Thumb_overflow: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Background_Contect_Offset: {x: 0, y: 0}
+    Horizontal_Thumb_Contect_Offset: {x: 0, y: 0}
+    Vertical_Background_Contect_Offset: {x: 0, y: 0}
+    Vertical_Thumb_Contect_Offset: {x: 0, y: 0}
+  logTypesToShow: 31

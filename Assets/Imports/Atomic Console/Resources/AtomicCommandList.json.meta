@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 23f0aa5a6344d06439478336f4f8ffc5
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265869
+  packageName: Atomic Console
+  packageVersion: 1.3
+  assetPath: Assets/Atomic Console/Resources/AtomicCommandList.json
+  uploadId: 629177

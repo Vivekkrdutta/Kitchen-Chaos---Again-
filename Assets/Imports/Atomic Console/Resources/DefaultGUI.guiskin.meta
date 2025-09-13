@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ddbef32e0d8eb4340a52226fcf7ab3fe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265869
+  packageName: Atomic Console
+  packageVersion: 1.3
+  assetPath: Assets/Atomic Console/Resources/DefaultGUI.guiskin
+  uploadId: 629177

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 556cf51ef28de8e4d979332fd05e6ea8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265869
+  packageName: Atomic Console
+  packageVersion: 1.3
+  assetPath: Assets/Atomic Console/Skins/Sharp.asset
+  uploadId: 629177

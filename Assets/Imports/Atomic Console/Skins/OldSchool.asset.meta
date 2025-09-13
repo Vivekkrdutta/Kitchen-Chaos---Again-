@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 68bf11788c91a154a9dd1b5294d67684
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 265869
+  packageName: Atomic Console
+  packageVersion: 1.3
+  assetPath: Assets/Atomic Console/Skins/OldSchool.asset
+  uploadId: 629177

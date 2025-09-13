@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e7fa75c21673f48a7d41e83a02cc70, type: 3}
+  m_Name: Vampire
+  m_EditorClassIdentifier: 
+  defaultSkin: {fileID: 11400000, guid: ddbef32e0d8eb4340a52226fcf7ab3fe, type: 2}
+  ChangeInRealTime: 0
+  ShowArgName: 0
+  OpenWindow: 282
+  AutoFill: 9
+  Previous_cmd: 273
+  Header: Developer Console
+  Button_Send: Send
+  Button_Clear: Clear
+  Show_Clear_Button: 1
+  Show_Send_Button: 1
+  ShowCloseBtn: 0
+  font: {fileID: 12800000, guid: 76910d656d3a6d94fbc5ee6121083acc, type: 3}
+  MinWinSize: {x: 512, y: 256}
+  MaxWinSize: {x: 1280, y: 640}
+  CanResize: 1
+  windowType: 0
+  windowRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  animationSpeed: 0.5
+  logPrefixType: 1
+  logPrefix: Command
+  MaxCommandHistory: 80
+  MaxSuggestion: 4
+  CaretSpeed: -0.8
+  Output_Command: {r: 0, g: 1, b: 0, a: 1}
+  Output_Log: {r: 0.8784314, g: 0.43137255, b: 0.69803923, a: 1}
+  Output_Warning: {r: 1, g: 0.7921569, b: 0.15686275, a: 1}
+  Output_Error: {r: 1, g: 0.15686274, b: 0.17465216, a: 1}
+  Output_Exception: {r: 1, g: 0, b: 0, a: 1}
+  InverseSelectionColor: 0
+  CaretColor: {r: 0.8784314, g: 0.43137255, b: 0.69803923, a: 1}
+  SelectionColor: {r: 0.6981132, g: 0.6952269, b: 0.6618903, a: 1}
+  Header_Style:
+    font_style: 1
+    font_color: {r: 0.87843144, g: 0.43137258, b: 0.69803923, a: 1}
+    alignment: 3
+    font_size: 14
+    HeaderSize: 30
+    useWindowPosition: 0
+    background: {fileID: 2800000, guid: 3f6c94eb9dcc2c64ca5ed68e2a442937, type: 3}
+    on_background: {fileID: 2800000, guid: 3f6c94eb9dcc2c64ca5ed68e2a442937, type: 3}
+    transparent: 0.534
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.12735848, g: 0.13342316, b: 0.16981131, a: 1}
+    onNormal_background_color: {r: 0.1254902, g: 0.13333334, b: 0.16862746, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 0, y: 0}
+    margin: {x: 0, y: 0, z: 0, w: 0}
+    padding: {x: 5, y: 0, z: 0, w: 0}
+    overflow: {x: 0, y: 0, z: 0, w: 0}
+    WH: {x: 0, y: 0}
+  Log_Style:
+    background: {fileID: 2800000, guid: 3f6c94eb9dcc2c64ca5ed68e2a442937, type: 3}
+    on_background: {fileID: 2800000, guid: 3f6c94eb9dcc2c64ca5ed68e2a442937, type: 3}
+    transparent: 1
+    border: {x: 32, y: 32, z: 32, w: 32}
+    background_color: {r: 0.15686275, g: 0.16470589, b: 0.21176471, a: 1}
+    onNormal_background_color: {r: 0.15686275, g: 0.16470589, b: 0.21176471, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 5, y: 0}
+    margin: {x: 0, y: 0, z: 0, w: 0}
+    padding: {x: 5, y: 5, z: 5, w: 5}
+    overflow: {x: 0, y: 0, z: 0, w: 0}
+  Input_Style:
+    font_style: 0
+    font_color: {r: 0.8784314, g: 0.43137255, b: 0.69803923, a: 1}
+    alignment: 3
+    font_size: 13
+    background: {fileID: 2800000, guid: f3509837a0837994fb7a16ee560a41b2, type: 3}
+    on_background: {fileID: 2800000, guid: f3509837a0837994fb7a16ee560a41b2, type: 3}
+    transparent: 1
+    border: {x: 32, y: 32, z: 0, w: 0}
+    background_color: {r: 0.09803922, g: 0.101960786, b: 0.12941177, a: 1}
+    onNormal_background_color: {r: 0.19696967, g: 0.20484847, b: 0.26, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 5, y: 0}
+    margin: {x: 0, y: 0, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: 0, w: 0}
+    overflow: {x: 0, y: 20, z: 0, w: 0}
+    WH: {x: 0, y: 30}
+  Output_Style:
+    font_style: 0
+    font_color: {r: 1, g: 0.41960785, b: 0.43137255, a: 1}
+    alignment: 0
+    font_size: 14
+    background: {fileID: 2800000, guid: 3f6c94eb9dcc2c64ca5ed68e2a442937, type: 3}
+    on_background: {fileID: 2800000, guid: 3f6c94eb9dcc2c64ca5ed68e2a442937, type: 3}
+    transparent: 0
+    border: {x: 32, y: 32, z: 32, w: 32}
+    background_color: {r: 0.12896048, g: 0.1347963, b: 0.16981131, a: 1}
+    onNormal_background_color: {r: 0.12941177, g: 0.13333334, b: 0.16862746, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 5, y: 0}
+    margin: {x: 0, y: 0, z: 0, w: 10}
+    padding: {x: 3, y: 0, z: 5, w: 5}
+    overflow: {x: 0, y: 0, z: 0, w: 5}
+  Button_Style:
+    font_style: 0
+    font_color: {r: 0.38431373, g: 0.44705883, b: 0.6431373, a: 1}
+    alignment: 4
+    font_size: 13
+    background: {fileID: 2800000, guid: f3509837a0837994fb7a16ee560a41b2, type: 3}
+    on_background: {fileID: 2800000, guid: f3509837a0837994fb7a16ee560a41b2, type: 3}
+    transparent: 1
+    border: {x: 32, y: 32, z: 0, w: 0}
+    background_color: {r: 0.09803922, g: 0.101960786, b: 0.12941177, a: 1}
+    onNormal_background_color: {r: 0.19809523, g: 0.20428571, b: 0.26, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 0, y: 0}
+    margin: {x: 30, y: 20, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: 0, w: 0}
+    overflow: {x: 2, y: 0, z: 0, w: 0}
+    WH: {x: 70, y: 30}
+  Command_Style:
+    font_style: 0
+    font_color: {r: 0.8784314, g: 0.43137255, b: 0.69803923, a: 1}
+    alignment: 0
+    font_size: 13
+    background: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    on_background: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    transparent: 1
+    border: {x: 6, y: 6, z: 6, w: 6}
+    background_color: {r: 0.098039225, g: 0.10196079, b: 0.12941177, a: 1}
+    onNormal_background_color: {r: 0.20000002, g: 0.20392159, b: 0.25882354, a: 1}
+    background_position: 0
+    text_clip: 1
+    content_offset: {x: 5, y: 0}
+    margin: {x: 0, y: 160, z: 4, w: 4}
+    padding: {x: 0, y: 0, z: 2, w: 2}
+    overflow: {x: 0, y: 0, z: 0, w: 0}
+    WH: {x: 0, y: 0}
+  CloseButton_Style:
+    font_style: 0
+    font_color: {r: 1, g: 0.41960788, b: 0.43137258, a: 1}
+    alignment: 1
+    font_size: 20
+    text: x
+    Button_Rect:
+      serializedVersion: 2
+      x: 30
+      y: 5
+      width: 20
+      height: 20
+    background: {fileID: 2800000, guid: de55cd6b0aa977943bfac6915e725efa, type: 3}
+    on_background: {fileID: 2800000, guid: de55cd6b0aa977943bfac6915e725efa, type: 3}
+    transparent: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    background_color: {r: 1, g: 0.41960788, b: 0.43137258, a: 1}
+    onNormal_background_color: {r: 1, g: 0.505, b: 0.51503384, a: 1}
+    background_position: 0
+    text_clip: 0
+    content_offset: {x: 1, y: -5}
+    margin: {x: 0, y: 0, z: 0, w: 0}
+    padding: {x: 0, y: 0, z: 0, w: 0}
+    overflow: {x: 0, y: 0, z: 0, w: 0}
+  Scrollbar_Style:
+    Background_Horizontal: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    On_Background_Horizontal: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    Thumb_Horizontal: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    on_Thumb_Horizontal: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    Background_Vertical: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    On_Background_Vertical: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    Thumb_Vertical: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    on_Thumb_Vertical: {fileID: 2800000, guid: 4969b4d80bc406e45a45952e0789e242, type: 3}
+    Background_Color: {r: 0, g: 0, b: 0, a: 1}
+    Thumb_Color: {r: 0.098039225, g: 0.10196079, b: 0.12941177, a: 1}
+    HoverThumb_Color: {r: 0.20000002, g: 0.20392159, b: 0.25882354, a: 1}
+    transparent: 0
+    Horizontal_Background_Border: {x: 9, y: 9, z: 0, w: 0}
+    Horizontal_Thumb_Border: {x: 6, y: 6, z: 4, w: 4}
+    Vertical_Background_Border: {x: 9, y: 9, z: 0, w: 0}
+    Vertical_Thumb_Border: {x: 4, y: 4, z: 4, w: 4}
+    Horizontal_Stretch_Width: 1
+    Horizontal_Stretch_Height: 0
+    Vertical_Stretch_Width: 0
+    Vertical_Stretch_Height: 1
+    Horizontal_Background_Fixed_Height: 13
+    Horizontal_Background_Fixed_Width: 0
+    Vertical_Background_Fixed_Height: 0
+    Vertical_Background_Fixed_Width: 13
+    Horizontal_Thumb_Fixed_Height: 0
+    Horizontal_Thumb_Fixed_Width: 0
+    Vertical_Thumb_Fixed_Height: 0
+    Vertical_Thumb_Fixed_Width: 0
+    Horizontal_Text_clip: 1
+    Horizontal_Image_position: 2
+    Horizontal_Alignment: 0
+    Vertical_Text_clip: 1
+    Vertical_Image_position: 2
+    Vertical_Alignment: 0
+    Horizontal_Background_margin: {x: 4, y: 0, z: 0, w: 0}
+    Horizontal_Background_padding: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Background_overflow: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Background_margin: {x: 4, y: 0, z: 0, w: 0}
+    Vertical_Background_padding: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Background_overflow: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Thumb_margin: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Thumb_padding: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Thumb_overflow: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Thumb_margin: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Thumb_padding: {x: 0, y: 0, z: 0, w: 0}
+    Vertical_Thumb_overflow: {x: 0, y: 0, z: 0, w: 0}
+    Horizontal_Background_Contect_Offset: {x: 0, y: 0}
+    Horizontal_Thumb_Contect_Offset: {x: 0, y: 0}
+    Vertical_Background_Contect_Offset: {x: 0, y: 0}
+    Vertical_Thumb_Contect_Offset: {x: 0, y: 0}
+  logTypesToShow: -1

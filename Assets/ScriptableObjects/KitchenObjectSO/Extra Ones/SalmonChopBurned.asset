@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 619d68d72f0a21f4fbc2dfae6a2792f7, type: 3}
+  m_Name: SalmonChopBurned
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 4354336607581666066, guid: 6ce10662da6bec54b862d1c29ebdc712, type: 3}
+  sprite: {fileID: 21300000, guid: 43a1334df9a0845cdbc95da101c15cd1, type: 3}
+  objectName: Salmon Burned

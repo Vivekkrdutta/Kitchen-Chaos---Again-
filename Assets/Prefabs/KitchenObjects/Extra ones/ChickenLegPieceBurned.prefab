@@ -1,0 +1,324 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2709124924702143078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4354336607581666066}
+  - component: {fileID: -5577872602372986007}
+  - component: {fileID: -2316156748336020409}
+  - component: {fileID: -5013203981505883870}
+  m_Layer: 0
+  m_Name: ChickenLegPieceBurned
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4354336607581666066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2709124924702143078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2167013724980444370}
+  - {fileID: 5393838341248224419}
+  - {fileID: 8899156663718011594}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-5577872602372986007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2709124924702143078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 714d8fecb630344409f595be4d51729e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-2316156748336020409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2709124924702143078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GlobalObjectIdHash: 3350946963
+  InScenePlacedSourceGlobalObjectIdHash: 0
+  DeferredDespawnTick: 0
+  Ownership: 1
+  AlwaysReplicateAsRoot: 0
+  SynchronizeTransform: 1
+  ActiveSceneSynchronization: 0
+  SceneMigrationSynchronization: 1
+  SpawnWithObservers: 1
+  DontDestroyWithOwner: 0
+  AutoObjectParentSync: 1
+  SyncOwnerTransformWhenParented: 1
+  AllowOwnerToParent: 0
+--- !u!114 &-5013203981505883870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2709124924702143078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f08bad35cce8542a6c678ed799e45c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  kitchenObjectSO: {fileID: 11400000, guid: e33336ce238c0db4480bd0aa53f1d4a7, type: 2}
+--- !u!1001 &3607267435063400575
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4354336607581666066}
+    m_Modifications:
+    - target: {fileID: 2834595618098478615, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_Name
+      value: Drumstick Burtned
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52fd573968f111940b380a1991675715, type: 3}
+--- !u!4 &2167013724980444370 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+  m_PrefabInstance: {fileID: 3607267435063400575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6313332867521136231
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4354336607581666066}
+    m_Modifications:
+    - target: {fileID: 2834595618098478615, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_Name
+      value: Drumstick Burtned (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.8772142
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.092653334
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.46846804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.049480636
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 56.796
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 10.067
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52fd573968f111940b380a1991675715, type: 3}
+--- !u!4 &8899156663718011594 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+  m_PrefabInstance: {fileID: 6313332867521136231}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7406049165352413198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 4354336607581666066}
+    m_Modifications:
+    - target: {fileID: 2834595618098478615, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_Name
+      value: Drumstick Burtned (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.92551714
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.37870565
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -44.507
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 52fd573968f111940b380a1991675715, type: 3}
+--- !u!4 &5393838341248224419 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3178786104909440173, guid: 52fd573968f111940b380a1991675715, type: 3}
+  m_PrefabInstance: {fileID: 7406049165352413198}
+  m_PrefabAsset: {fileID: 0}
