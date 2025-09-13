@@ -23,4 +23,4 @@ This project is a simplified Overcooked-like game where the player prepares and 
 ## 🚀 How to Play
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Vivekkrdutta/Kitchen-Chaos-Replica.git
+   git clone https://github.com/Vivekkrdutta/Kitchen-Chaos---Again-
