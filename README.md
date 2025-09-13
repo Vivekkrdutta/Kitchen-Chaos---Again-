@@ -1,8 +1,8 @@
 # 🍴 Kitchen Chaos Again
 
 A Unity game inspired by [**Code Monkey's Kitchen Chaos tutorial**](https://store.steampowered.com/app/2275820/Kitchen_Chaos__Learn_Game_Development/).  
-This project is a simplified Overcooked-like game where the player prepares and delivers meals to customers.  
-✨ Extended with **multiplayer (NGO + Unity Relay + Lobby)** and an improved **scoring & delivery system**. The Player can now deliver directly to customers waiting at their tables !
+
+This project is a simplified Overcooked-like game where the player prepares and delivers meals to customers. ✨ Extended with **multiplayer (NGO + Unity Relay + Lobby)** and an improved **scoring & delivery system**. The Player can now deliver directly to customers waiting at their tables !
 
 ---
 
@@ -52,3 +52,6 @@ This project is a simplified Overcooked-like game where the player prepares and 
 1. Clone the repository:
    ```bash
    git clone https://github.com/Vivekkrdutta/Kitchen-Chaos---Again-.git
+   ```
+2. Open a new Unit Project with these Folders.
+3. Extend / Run the game locally.
