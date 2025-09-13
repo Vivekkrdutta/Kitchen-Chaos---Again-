@@ -15,6 +15,16 @@ This project is a simplified Overcooked-like game where the player prepares and 
 
 ---
 
+## 🎯 Controls
+ - WASD / Arrow Keys → Move
+ - E → Interact / Pick / Drop
+ - Space → Action (chop, deliver, etc.)
+
+---
+
+## Play the Game
+[![Play on Itch.io](https://static.itch.io/images/badge.svg)](https://<your-itch-username>.itch.io/<your-game-name>)
+
 ## 🖼️ Screenshots
 (Add some gameplay images here: `Images/Gameplay1.png`, etc.)
 
