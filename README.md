@@ -30,7 +30,7 @@ This project is a simplified Overcooked-like game where the player prepares and 
 ---
 
 ## ▶️ Play the Game
-[![Play on Itch.io](https://static.itch.io/images/badge.svg)](https://vivekkrdutta03.itch.io/restaurant)
+[![Play on Itch.io](https://static.itch.io/images/badge.svg)](https://thepelicanpresents.itch.io/restaurant)
 
 ---
 
