@@ -25,7 +25,7 @@ This project is a simplified Overcooked-like game where the player prepares and 
 ## 🎯 Controls
 - **WASD / Arrow Keys** → Move  
 - **E** → Interact / Pick / Drop  
-- **Space** → Action (chop, deliver, etc.)  
+- **F** → Action (chop, etc.)  
 
 ---
 
